@@ -1,0 +1,2 @@
+--获取毫秒
+require("socket").gettime()
