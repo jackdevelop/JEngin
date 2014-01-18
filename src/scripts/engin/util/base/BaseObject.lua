@@ -5,7 +5,7 @@
 	对象的基础类
  
  
- * @author  jackdevelop@sina.com
+ * @author  改自 dualface
  * $Id:$
  * @version 1.0
 ]]
@@ -13,7 +13,7 @@ local BaseObject = class("BaseObject")
 
 
 function BaseObject:ctor(id, state, map)
-    assert(type(state) == "table", "ObejctBase:ctor() - invalid state")
+    assert(type(state) == "table", "BaseObject:ctor() - invalid state")
 
     for k, v in pairs(state) do
         local kn = k .. "_"
@@ -41,21 +41,21 @@ function BaseObject:ctor(id, state, map)
     end
 end
 
-function BaseObject:init()
-    if not self.behaviors_ then return end
-
-    local behaviors
-    if type(self.behaviors_) == "string" then
-        behaviors = string.split(self.behaviors_, ",")
-    else
-        behaviors = self.behaviors_
-    end
-
-    for i, behaviorName in ipairs(behaviors) do
-        behaviorName = string.trim(behaviorName)
-        if behaviorName ~= "" then self:bindBehavior(behaviorName) end
-    end
-end
+--function BaseObject:init()
+--    if not self.behaviors_ then return end
+--
+--    local behaviors
+--    if type(self.behaviors_) == "string" then
+--        behaviors = string.split(self.behaviors_, ",")
+--    else
+--        behaviors = self.behaviors_
+--    end
+--
+--    for i, behaviorName in ipairs(behaviors) do
+--        behaviorName = string.trim(behaviorName)
+--        if behaviorName ~= "" then self:bindBehavior(behaviorName) end
+--    end
+--end
 
 function BaseObject:getId()
     return self.id_
