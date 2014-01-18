@@ -7,7 +7,7 @@
 	 贴图必须是plist上的
  	使用方法：
  		
- 	  display.addSpriteFramesWithFileListName(GamePlistConstants.Sheet_Bullet())
+ 	  display.addSpriteFramesWithFileListName(GamePlistProperties.Sheet_Bullet())
      local animationCache = AnimationCache.new();
      local animationParam  = AnimationProperties.get("bullet10");
      animationCache:initData("myAnimation",animationParam)

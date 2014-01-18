@@ -2,6 +2,7 @@
  	AtlasText
  	public ->> 全局公开类
  	不可重写
+ 	CCLabelAtlas 封转类使用
  	
 	使用：
 	local atlasParam = {
