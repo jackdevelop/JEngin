@@ -1,6 +1,8 @@
 --[[
  	GameImageUIProperties
  	public ->> 全局公开类  
+ 	完全重写父类的  engin/config/properties/GameImageUIProperties.lua
+ 	
  	游戏中game的app包可以直接重写此类
 	
 	
@@ -14,7 +16,7 @@
 local GameImageUIProperties = {}
 
 
---GameImageUIProperties.CheckBoxButton2Off = "ui/CheckBoxButton2Off.png";
+GameImageUIProperties.CheckBoxButton2Off = "ui/CheckBoxButton2Off.png";
 
 
 

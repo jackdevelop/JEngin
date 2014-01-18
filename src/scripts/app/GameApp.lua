@@ -5,7 +5,7 @@ require("framework.shortcodes")
 require("framework.cc.init")
 
 require("engin.config.EnginInit")
-
+require("app.config.init")
 
 local UIDemoApp = class("UIDemoApp", cc.mvc.AppBase)
 
