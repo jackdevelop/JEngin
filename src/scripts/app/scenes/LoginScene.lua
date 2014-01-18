@@ -7,6 +7,8 @@ local LoginScene = class("LoginScene", BaseScene)
 
 
 function LoginScene:ctor(param)
+	self.currentSceneName_ = GameSoundProperties.bg_sound;
+	audio.playBackgroundMusic(self.currentSceneName_());
 	
 	
 	local function updateCheckBoxButtonLabel(login_btn)
@@ -22,7 +24,7 @@ function LoginScene:ctor(param)
 				end
 			end
 			
-			HttpLoad:json("commandId",param,loginCallBack)
+			HttpLoad:json("commandId",{name = "jackdevelop@sina.com"},loginCallBack)
 		end
     end
 

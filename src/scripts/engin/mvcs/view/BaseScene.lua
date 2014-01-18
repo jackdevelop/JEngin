@@ -33,10 +33,16 @@ function BaseScene:ctor(param)
 	local height = param.height;
 	local sceneName = param.sceneName;
 	local isMultiTouch =param.isMultiTouch; 
+	self.sceneSound_ = param.sceneSound
 	
 	self.currentSceneName_ = sceneName;--场景名称
 	self.isMultiTouch_=isMultiTouch;--多点触摸
 
+
+	--播放场景的背景音乐
+	audio.playBackgroundMusic(self.sceneSound_);
+	
+	
 	
 	 -- mapLayer 包含地图的整个视图
     self.mapLayer = display.newNode()
@@ -573,7 +579,12 @@ function BaseScene:onCleanup()
 --	CCTextureCache:sharedTextureCache():removeAllTextures() --释放以前的资源
 	CCLabelBMFont:purgeCachedData();--释放位图字体
 	
-	
+	--卸载音乐
+	if self.sceneSound_ then 
+		audio.stopBackgroundMusic(self.sceneSound_);
+		--audio.stopBackgroundMusic();
+		audio.unloadSound(self.sceneSound_);
+	end
 	
 	
 --	如果游戏有很多场景，在切换场景的时候可以把前一个场景的内存全部释放，防止总内存过高.

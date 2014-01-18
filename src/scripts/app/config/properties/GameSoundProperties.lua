@@ -15,7 +15,7 @@ local GameSoundProperties = {}
 
 
 
-GameSoundProperties.Sheet_Bullet=Jsound("bullet/Sheet_Bullet",false)
+GameSoundProperties.bg_sound=Jsound("sound/bg.mp3",true) 
 
 
 

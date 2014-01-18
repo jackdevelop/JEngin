@@ -1,0 +1,67 @@
+
+<dict>
+	cocos2d.x.version: 2.2.1
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.vendor: Intel
+	gl.renderer: Intel(R) HD Graphics Family
+	gl.version: 3.1.0 - Build 8.15.10.2827
+	gl.max_texture_size: 8192
+	gl.max_texture_units: 16
+	gl.supports_PVRTC: false
+	gl.supports_NPOT: true
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+</dict>
+lua_loadChunksFromZIP() - load zip file: E:\cocos2d-x+lua\lua\item\engin\git\quick-cocos2d-x\lib\framework_precompiled\framework_precompiled.zip
+lua_loadChunksFromZIP() - loaded chunks count: 29
+------------------------------------------------
+LOAD LUA FILE: F:/workspace/lua/JEngin/src//scripts/main.lua
+------------------------------------------------
+lua_loadChunksFromZIP() - load zip file: F:\workspace\lua\JEngin\src\res/script/framework_precompiled.zip
+lua_loadChunksFromZIP() - loaded chunks count: 54
+[0.1186] [INFO] 
+[0.1189] [INFO] # DEBUG                        = 1
+[0.1194] [INFO] #
+[0.1200] [INFO] # device.platform              = windows
+[0.1204] [INFO] # device.model                 = unknown
+[0.1207] [INFO] # device.language              = cn
+[0.1211] [INFO] # device.writablePath          = F:\workspace\lua\JEngin\src\\
+[0.1215] [INFO] # device.cachePath             = F:\workspace\lua\JEngin\src\\
+[0.1226] [INFO] # device.directorySeparator    = \
+[0.1233] [INFO] # device.pathSeparator         = ;
+[0.1238] [INFO] #
+[0.1263] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_HEIGHT
+[0.1268] [INFO] # CONFIG_SCREEN_WIDTH          = 960.00
+[0.1276] [INFO] # CONFIG_SCREEN_HEIGHT         = 640.00
+[0.1286] [INFO] # display.widthInPixels        = 960.00
+[0.1294] [INFO] # display.heightInPixels       = 640.00
+[0.1301] [INFO] # display.contentScaleFactor   = 1.00
+[0.1307] [INFO] # display.width                = 960.00
+[0.1314] [INFO] # display.height               = 640.00
+[0.1320] [INFO] # display.cx                   = 480.00
+[0.1326] [INFO] # display.cy                   = 320.00
+[0.1332] [INFO] # display.left                 = 0.00
+[0.1339] [INFO] # display.right                = 960.00
+[0.1344] [INFO] # display.top                  = 640.00
+[0.1351] [INFO] # display.bottom               = 0.00
+[0.1355] [INFO] # display.c_left               = -480.00
+[0.1360] [INFO] # display.c_right              = 480.00
+[0.1367] [INFO] # display.c_top                = 320.00
+[0.1374] [INFO] # display.c_bottom             = -320.00
+[0.1387] [INFO] #
+[0.3824] [INFO] Scene "BaseScene:onEnter()"
+[6.5541] [INFO] Scene "BaseScene:onExit()"
+[6.5549] [INFO] ----------------------------------------
+[6.5559] [INFO] LUA VM MEMORY USED: 1559.52 KB
+cocos2d: "cc_fps_images" rc=4 id=2 256 x 32 @ 16 bpp => 16 KB
+cocos2d: "cc_2x2_white_image" rc=3 id=3 2 x 2 @ 32 bpp => 0 KB
+cocos2d: "F:\workspace\lua\JEngin\src\\res/ui/CheckBoxButton2Off.png" rc=2 id=5 48 x 48 @ 32 bpp => 9 KB
+cocos2d: "F:\workspace\lua\JEngin\src\\res/ui/SliderBarFixed.png" rc=31 id=6 240 x 40 @ 32 bpp => 37 KB
+cocos2d: CCTextureCache dumpDebugInfo: 4 textures, for 62 KB (0.06 MB)
+[6.5630] [INFO] ----------------------------------------
+cocos2d: CCTextureCache: texture: cc_fps_images
+cocos2d: CCTextureCache: texture: cc_2x2_white_image
+cocos2d: CCTextureCache: texture: F:\workspace\lua\JEngin\src\\res/ui/CheckBoxButton2Off.png
+cocos2d: CCTextureCache: texture: F:\workspace\lua\JEngin\src\\res/ui/SliderBarFixed.png

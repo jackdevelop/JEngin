@@ -15,8 +15,7 @@ local GameSoundProperties = {}
 
 
 
---GameSoundProperties.Sheet_Bullet=Jsound("bullet/Sheet_Bullet",false)
-
+GameSoundProperties.bg_sound=Jsound("sound/bg.mp3",true)  --分别为:路径名称  是否循环
 
 
 return GameSoundProperties
