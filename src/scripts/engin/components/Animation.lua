@@ -6,7 +6,7 @@
  	使用方法：
  	
  
- * @author  
+ * @author  dualface
  * $Id:$
  * @version 1.0
 ]]

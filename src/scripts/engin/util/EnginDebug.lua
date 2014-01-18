@@ -2,7 +2,7 @@
  	EnginDebug.lua
  	public ->> 全局公开类
  	
-	 引擎调试的一些基础库
+	 积累引擎调试的一些基础库
  
  
  * @author  jackdevelop@sina.com
